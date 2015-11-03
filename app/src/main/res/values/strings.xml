@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Indiarose application dessin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="FichierA">a.svg</string>
+    <string name="img1">model</string>
+    <string name="progress">Barre de progression</string>
+    <string name="grille">Grille</string>
+    <string name="valider">Valider</string>
+    <string name="bouton">Button</string>
+    <string name="gallery">Galerie</string>
+    <string name="chooseExercice">Choisissez l\'exercice à ajouter</string>
+    <string name="drawExercice">Dessiner un nouveau modele</string>
+
+
+</resources>

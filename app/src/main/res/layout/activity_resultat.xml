@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50">
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/progress"
+        android:layout_gravity="center|center_vertical"
+        android:clickable="false"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/progressionstyle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="50sp"
+        android:id="@+id/res"
+        android:layout_gravity="center|center_horizontal"
+        android:gravity="center"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:background="#fffb2db7">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="40"
+        android:id="@+id/reessayer"
+        android:layout_gravity="left"
+        android:text="Réessayer"
+        android:background="#ff326f88"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="40"
+        android:id="@+id/menu"
+        android:layout_gravity="right"
+        android:text="Menu"
+        android:background="#ff91bb1e"/>
+    </LinearLayout>
+
+
+</LinearLayout>

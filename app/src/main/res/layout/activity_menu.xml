@@ -1,0 +1,368 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.indiaroseapplicationdessin.app.MenuActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        android:weightSum="80"
+        android:id="@+id/ligne1">
+
+
+    <LinearLayout
+        android:id="@+id/A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonA"
+        android:src="@drawable/a"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/FichierA"
+            android:textAlignment="center"
+            android:text="@string/FichierA"
+            android:layout_below="@+id/ButtonA"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Progression"
+            android:textAlignment="center"
+            android:layout_below="@+id/FichierA"
+            android:src="@drawable/progression"/>
+
+     </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ButtonB"
+                android:src="@drawable/b"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/FichierB"
+                android:textAlignment="center"
+                android:text="@string/FichierA"
+                android:layout_below="@+id/ButtonB"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Progression"
+                android:textAlignment="center"
+                android:layout_below="@+id/FichierB"
+                android:src="@drawable/progression"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ButtonC"
+                android:src="@drawable/c"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/FichierC"
+                android:textAlignment="center"
+                android:text="@string/FichierA"
+                android:layout_below="@+id/ButtonC"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Progression"
+                android:textAlignment="center"
+                android:layout_below="@+id/FichierC"
+                android:src="@drawable/progression"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ButtonD"
+                android:src="@drawable/d"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/FichierD"
+                android:textAlignment="center"
+                android:text="@string/FichierA"
+                android:layout_below="@+id/ButtonD"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Progression"
+                android:textAlignment="center"
+                android:layout_below="@+id/FichierD"
+                android:src="@drawable/progression"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ButtonE"
+                android:src="@drawable/e"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/FichierE"
+                android:textAlignment="center"
+                android:text="@string/FichierA"
+                android:layout_below="@+id/ButtonE"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Progression"
+                android:textAlignment="center"
+                android:layout_below="@+id/FichierE"
+                android:src="@drawable/progression"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ligne2"
+        android:layout_width="wrap_content"
+        android:layout_weight="80"
+        android:layout_height="wrap_content"
+        android:weightSum="80"
+        android:layout_below="@id/ligne1">
+
+
+        <LinearLayout
+            android:id="@+id/F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ButtonF"
+                android:src="@drawable/f"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/FichierF"
+                android:textAlignment="center"
+                android:text="@string/FichierA"
+                android:layout_below="@+id/ButtonF"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Progression"
+                android:textAlignment="center"
+                android:layout_below="@+id/FichierF"
+                android:src="@drawable/progression"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/G"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ButtonG"
+                android:src="@drawable/g"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/FichierG"
+                android:textAlignment="center"
+                android:text="@string/FichierA"
+                android:layout_below="@+id/ButtonG"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:id="@+id/Progression"
+                android:layout_below="@+id/FichierG"
+                android:src="@drawable/progression"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/H"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ButtonH"
+                android:src="@drawable/h"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:id="@+id/FichierH"
+                android:text="@string/FichierA"
+                android:layout_below="@+id/ButtonH"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:id="@+id/Progression"
+                android:layout_below="@+id/FichierH"
+                android:src="@drawable/progression"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/I"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ButtonI"
+                android:src="@drawable/i"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/FichierI"
+                android:textAlignment="center"
+                android:text="@string/FichierA"
+                android:layout_below="@+id/ButtonI"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Progression"
+                android:textAlignment="center"
+                android:layout_below="@+id/FichierI"
+                android:src="@drawable/progression"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/J"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ButtonJ"
+                android:src="@drawable/j"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/FichierJ"
+                android:textAlignment="center"
+                android:text="@string/FichierA"
+                android:layout_below="@+id/ButtonJ"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Progression"
+                android:textAlignment="center"
+                android:layout_below="@+id/FichierJ"
+                android:src="@drawable/progression"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/K"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ButtonK"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/FichierK"
+                android:textAlignment="center"
+                android:layout_below="@+id/ButtonK"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Progression"
+                android:textAlignment="center"
+                android:layout_below="@+id/FichierK"
+                android:src="@drawable/progression"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

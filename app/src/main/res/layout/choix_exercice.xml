@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/gallerie"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/gallery"
+        android:textColor="@android:color/background_light"
+        android:background="@color/BleuClair"/>
+
+    <Button
+        android:id="@+id/dessiner"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/drawExercice"
+        android:textColor="@android:color/background_light"
+        android:background="@color/Bleu1"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Annuler"
+        android:textColor="@android:color/background_light"
+        android:background="@color/FondBleu"/>
+
+
+
+
+</LinearLayout>
